@@ -183,7 +183,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # and make a few simple edits to convert the previous example to this
       # example's situation.
 
-      board = ["x", "o", "o", "o", "o", "o", "o", "o", "o"]
+      board = ["o", "o", "o", "o", "o", "o", "o", "o", "o"]
       
       output = capture_puts{ display_board(board) } if defined?(display_board)
       rows = output.split("\n")
